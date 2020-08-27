@@ -11,7 +11,7 @@ const styles = {
         display: "inline-block",
         position: "relative",
         cursor: "pointer",
-        marginBottom: "-3.5px",
+        marginBottom: "-5.5px",
         "&:hover svg": {
             color: "white",
             transform: "scale(1.5)"
@@ -28,7 +28,8 @@ const styles = {
         textTransform: "uppercase",
         fontSize: "12px",
         display: "flex",
-        justifyContent: "space-between"
+        justifyContent: "space-between",
+
     },
     deleteIcon: {
        transition: "all 0.2s ease-in-out",
