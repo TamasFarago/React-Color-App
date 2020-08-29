@@ -1,11 +1,27 @@
 import sizes from "./Sizes"
+import bg from "./bg.svg"
 const styles = {
+    "@global": {
+        ".fade-exit": {
+            opacity: 1
+        },
+        ".fade-exit-active":{
+            opacity: 0,
+            transition: "opacity 500ms ease-out"
+        }
+    },
     root: {
         backgroundColor: "blue",
         minHeight: "100vh",
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center",
+        backgroundColor: "#751faa",
+        backgroundImage: `url(${bg})`,
+        
+    },
+    heading: {
+        fontSize: "1.5rem"
     },
     container: {
         width: "50%",
@@ -28,7 +44,6 @@ const styles = {
         alignItems: "center",
         "& a": {
             color: "white",
-            // marginRight: "40px",
            
         }
     },
