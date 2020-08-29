@@ -16,7 +16,7 @@ const styles = {
         display: "flex",
         alignItems: "flex-start",
         justifyContent: "center",
-        backgroundColor: "#751faa",
+        backgroundColor: "#480b8a",
         backgroundImage: `url(${bg})`,
         
     },
