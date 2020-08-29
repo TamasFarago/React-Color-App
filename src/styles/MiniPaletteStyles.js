@@ -10,8 +10,11 @@ const styles = {
        "&:hover svg": {
            opacity: 1
        },
-       
-
+       "& svg": {
+           width: "15%",
+           height: "15%"
+       }
+      
     },
     colors: {
         backgroundColor: "$dae1e4",
@@ -54,7 +57,7 @@ const styles = {
         right: 0,
         top: 0,
         zIndex: "1",
-        padding: "8px",
+        padding: "2px",
         opacity: "0",
         
     }
