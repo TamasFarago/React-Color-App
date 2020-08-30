@@ -18,6 +18,7 @@ const styles = {
         justifyContent: "center",
         backgroundColor: "#480b8a",
         backgroundImage: `url(${bg})`,
+        overflow: "scroll"
         
     },
     heading: {

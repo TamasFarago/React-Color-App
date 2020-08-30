@@ -13,7 +13,8 @@ const styles = {
        "& svg": {
            width: "15%",
            height: "15%"
-       }
+       },
+       
       
     },
     colors: {
