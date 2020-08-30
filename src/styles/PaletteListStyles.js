@@ -11,7 +11,6 @@ const styles = {
         }
     },
     root: {
-        backgroundColor: "blue",
         minHeight: "100vh",
         display: "flex",
         alignItems: "flex-start",

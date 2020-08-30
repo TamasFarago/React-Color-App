@@ -32,6 +32,8 @@ class ColorBox extends Component {
               className={`${classes.copyOverlay} ${copied &&
                 classes.showOverlay}`}
             />
+         
+           
             <div
               className={`${classes.copyMessage} ${copied &&
                 classes.showMessage}`}
